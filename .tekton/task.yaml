@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: basic-task
+spec:
+  steps:
+  - name: echo-helloworld
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
