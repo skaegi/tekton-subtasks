@@ -4,6 +4,51 @@ metadata:
   name: pipeline
 spec:
   tasks:
-    - name: pipeline-task
+    - name: pipeline-task1
       taskRef:
         name: basic-task
+    - name: pipeline-task2
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task1
+    - name: pipeline-task3
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task2
+    - name: pipeline-task4
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task3
+    - name: pipeline-task5
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task4
+    - name: pipeline-task6
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task5
+    - name: pipeline-task7
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task6
+    - name: pipeline-task8
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task7
+    - name: pipeline-task9
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task8
+    - name: pipeline-task10
+      taskRef:
+        name: basic-task
+      runafter:
+        - pipeline-task9
