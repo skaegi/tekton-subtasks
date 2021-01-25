@@ -5,7 +5,7 @@ metadata:
 spec:
   steps:
   - name: echo-helloworld
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
