@@ -109,7 +109,7 @@ spec:
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
-  - name: echo-helloworld21
+  - name: echo-helloworld22
     image: ubuntu
     command: ["/bin/sh", "-c"]
     args:
