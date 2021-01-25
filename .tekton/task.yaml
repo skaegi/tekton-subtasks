@@ -5,52 +5,52 @@ metadata:
 spec:
   steps:
   - name: echo-helloworld1
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld2
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld3
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld4
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld5
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld6
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld7
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld8
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld9
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
   - name: echo-helloworld10
-    image: ubuntu
+    image: icr.io/continuous-delivery/pipeline/pipeline-base-image
     command: ["/bin/sh", "-c"]
     args:
     - echo hello world;
