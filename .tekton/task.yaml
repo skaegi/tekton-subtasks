@@ -4,7 +4,52 @@ metadata:
   name: basic-task
 spec:
   steps:
-  - name: echo-helloworld
+  - name: echo-helloworld1
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld2
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld3
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld4
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld5
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld6
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld7
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld8
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld9
+    image: ubuntu
+    command: ["/bin/sh", "-c"]
+    args:
+    - echo hello world;
+  - name: echo-helloworld10
     image: ubuntu
     command: ["/bin/sh", "-c"]
     args:
