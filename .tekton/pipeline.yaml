@@ -5,5 +5,34 @@ metadata:
 spec:
   tasks:
     - name: pipeline-task
-      taskRef:
-        name: basic-task
+      subtasks:
+        - name: pipeline-subtask1
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask2
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask3
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask4
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask5
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask6
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask7
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask8
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask9
+          taskRef:
+            name: basic-task
+        - name: pipeline-subtask10
+          taskRef:
+            name: basic-task
